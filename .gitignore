@@ -216,3 +216,18 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+# --- Project-specific additions ---
+
+# Data files & outputs (never commit data!)
+data/
+*.parquet
+*.csv
+*.gz
+
+# Editors
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
